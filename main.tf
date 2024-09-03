@@ -6,10 +6,7 @@ terraform {
     }
   }
 }
-provider "azurerm" {
-features {}
-   subscription_id = "7ea1702d-d0c5-423b-ba9a-b69218aaf564"
-}
+
 
 locals {
   tags = {
